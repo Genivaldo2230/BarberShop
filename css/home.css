@@ -1,0 +1,47 @@
+
+@import url(var.css);
+
+.home{
+    background-image: url(../img/bg-home.jpg);
+    height: 100vh;
+    background-size: cover; 
+}
+
+.home .header{
+    padding: 5px;
+}
+
+.home .header .nav{
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul {
+    display: flex;
+}
+
+.home .header .nav ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.home .header .nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.home .header .nav ul li .links:hover{
+    transition: 500ms ease-in-out;
+    border-bottom: 1px solid var(--color-primary);
+    transform: translateY(-30%);
+    color:var(--color-primary);
+}
+
+
+
+
+
