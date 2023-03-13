@@ -11,12 +11,11 @@
   
 #
   
-### Você pode conferir o resultado final clicando no Logo do Projeto logo abaixo <br>
 
-#
+
   
 <div align="center">
-  <h4>Visite o Projeto Concluído clicando no ícone abaixo:</h4>
+  <h4>Visite o Projeto clicando no ícone abaixo:</h4>
   <a  href="https://barberhop-dukievicz.vercel.app/" target="_blank"><img  height="150em"src="https://github.com/LeandroDukievicz/BarberShop/blob/main/img/logo.png" target="_blank">
 </div>            
   
