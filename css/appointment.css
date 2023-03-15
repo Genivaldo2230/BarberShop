@@ -1,0 +1,83 @@
+.appointment {
+    padding: 80px 0;
+    background-color: var(--color-primary);
+    height: 100vh;
+    background-image: url(../img/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+  }
+  
+  .appointment h2 {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .appointment img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  
+  .appointment form {
+    width: 90vw;
+    margin-top: 80px;
+    padding: 30px;
+  }
+  
+  .appointment .personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .appointment .input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+  }
+  
+  .appointment .input-wrapper:last-of-type {
+    margin-right: 0;
+  }
+  
+  .appointment label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: var(--color-primary-light);
+  }
+  
+  .appointment .personal-data input,
+  .appointment .personal-data select,
+  .appointment textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .appointment textarea {
+    height: 100px;
+  }
+  
+  .appointment button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .appointment button:hover{
+    transition:1s;
+    letter-spacing: 0.1rem;
+    box-shadow: 5px 5px #373737;
+  }
+  
