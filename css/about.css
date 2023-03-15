@@ -1,52 +1,101 @@
 
 @import url(var.css);
-
-.about{
-    height: 100vh;
-    background-color:var(--color-primary);
-}
-
-.about .container{
+.about {
+    background-color: var(--color-primary);
+  }
+  
+  .about .container {
     display: flex;
-}
-
-.about .timing{
+  }
+  
+  .about .timing {
+    position: relative;
+    top: -50px;
     width: 33%;
+    margin-left: 50px;
+    padding: 20px;  
     background-image: url(../img/brush-big.jpg);
-    background-size: cover;
-    padding:20px;
-    height: 500px;
-}
-
-.about .timing .overlay {
+  }
+  
+  .about .timing .overlay {
     background: rgba(0, 0, 0, 0.8);
-    padding: 40px 20px;
     text-align: center;
-}
-
-.about .timing .icon-cut {
+    padding: 40px 20px;
+  }
+  
+  .about .timing .icon-cut {
     width: 50px;
-}
-
-.about .timing h3{
+  }
+  
+  
+  .about .timing h3 {
     color: var(--color-primary);
-    font-size: 2rem;
-    font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 1px solid  var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
     width: fit-content;
-    margin:0 auto;
-}
-
-.about .timing .text h4{
-    color:grey;
-}
-
-.about .timing .
-
-
-
-.about .experience{
+    margin: 0 auto 30px auto;
+    font-size: 30px;
+  }
+  
+  .about .timing .text {
+    margin: 10px 0;
+  }
+  
+  .about .timing .text:after {
+    content: '•';
+    display: block;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .about .timing .text:last-of-type:after {
+    content: '|';
+  }
+  
+  .about .timing .text h4 {
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .about .timing span {
+    color: white;
+    font-size: 15px;
+    display: block;
+  }
+  
+  
+  .about .experience {
     width: 66%;
-}
-
+    color: white;
+    margin-left: 7%;
+    margin-top: 100px;
+  }
+  
+  .about .experience h2 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  
+  .about .experience h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #a38f78;
+    margin: 20px 0;
+  }
+  
+  .about .experience .text {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about .experience .text p {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 17px;
+  }
+  
+  
